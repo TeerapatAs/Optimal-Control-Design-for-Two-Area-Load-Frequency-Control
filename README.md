@@ -12,11 +12,7 @@ By using the LQR controller, the optimal control requires that the steady state 
 The state variables and input signals are shown in the picture **"State Space model.png"**
 
 ## File descriptions:
-1. Algorithm to determine the abscissa of stability and the approximate peak output of the signal from a consistent input (load demand) that varies over time.
-2. Simulink model of the Load Frequency Control (LFC) system. Run "for_simulink_model.m" first to set parameter values.
-3. Senior_Project_Proposal_Edited.pdf - Shows that the designed regulator reduces the frequency deviation's peak to 50% from regulation limits under very high demand changes up to 8.4% pu/min while operating a reheat steam turbine with a ramp rate of up to 10% pu/min.
-4. call_Algorithm1_TChuman_turbine.m - Used to compute the parameters of the regulator by calling the "Algorithm1_TChuman.m" function with the MBP Algorithm.
-5. for_simulink_model.m - Script to initialize parameters for the LFC Simulink model.
+
 
 
 
