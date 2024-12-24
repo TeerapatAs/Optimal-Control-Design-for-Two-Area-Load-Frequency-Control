@@ -15,12 +15,18 @@ Comparison of both control performances are shown in the **"results"** folder.
 
 ## File descriptions
 **1. CallForSingleArea.m** - please run before opening **Optimal2Area_2Machine.slx**, this file contains parameters of the 2-area load frequency control with integral control.
+
 **2. Optimal2Area_2Machine.slx** - run after calling **CallForSingleArea.m** to get the simulated response data.
+
 **3. Ricatti_CallForOptimal.m** - please run before opening **optimal2Area_Optimal.slx**, this file contains parameters of the 2-area load frequency control with optimal control.
+
 **4. optimal2Area_Optimal.slx** - run after calling **Ricatti_CallForOptimal.m** to get the simulated response data.
+
 **5. plot_shown.m** - plot to compare the performance of the integral control and optimal control, run after getting simulated frequency deviation and changes in the power tie line data. 
 For convenience, download the simulated data from **data** and put them in the same folder as **plot_shown.m** to run plot_shown.m without needing to run the Simulink files 2. and 4.
+
 **6. data** - contains the simulated data from Simulink files 2. and 4.
+
 **7. results** - contains images comparing the performance of both controls, get by running **plot_shown.m**.
 
 
