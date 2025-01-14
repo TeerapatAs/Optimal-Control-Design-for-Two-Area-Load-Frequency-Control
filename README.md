@@ -11,7 +11,11 @@ By using the LQR controller, optimal control requires that the steady state valu
 
 The state variables and input signals are shown in the picture **"State Space model.png"**
 
-Comparison of both control performances are shown in the **"results"** folder.
+Comparisons of both control performances are shown below. You can see them in the **"results"** folder.
+#Frequency deviation:
+![Frequency deviation](https://github.com/user-attachments/assets/16150a50-f64d-4eaf-962c-c3231ed48ec7)
+#Power in Tie Line
+![Power Tie line](https://github.com/user-attachments/assets/285623ee-b2a4-435c-92bb-3274da8e2f03)
 
 ## File descriptions
 **1. CallForSingleArea.m** - please run before opening **Optimal2Area_2Machine.slx**, this file contains parameters of the 2-area load frequency control with integral control.
