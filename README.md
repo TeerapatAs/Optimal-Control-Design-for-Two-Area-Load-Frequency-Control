@@ -12,6 +12,7 @@ By using the LQR controller, optimal control requires that the steady state valu
 The state variables and input signals are shown in the picture **"State Space model.png"**
 
 Comparisons of both control performances are shown below. You can see them in the **"results"** folder.
+
 #Frequency deviation:
 ![Frequency deviation](https://github.com/user-attachments/assets/16150a50-f64d-4eaf-962c-c3231ed48ec7)
 #Power in Tie Line
